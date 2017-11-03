@@ -1,0 +1,65 @@
+body {
+  background-image: url("http://wallpaperswide.com/download/eden_nebula-wallpaper-3840x2160.jpg");
+  background-position: top center;
+  magrin: 20px;
+  font-family: "Raleway", sans-serif;
+}
+#top {
+  display: flex;
+  justify-content: center;
+  color: #ff8c70;
+  border: solid 1px;
+  border-radius: 15px;
+  background: linear-gradient(to right, transparent, #1b3e96);
+}
+#left {
+  justify-content: center;
+  margin-right: 200px;
+  border: solid 1px #72e7ff;
+  width: 580px;
+}
+#right {
+  border: solid 1px #72e7ff;
+  color: #ff8c70;
+  text-align: center;
+  width: 250px;
+}
+#left, #right {
+  padding: 0px;
+  border-radius: 20px;
+  height: 400px;
+}
+#lr {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+#hours, #minutes, #seconds, .start {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 75px;
+  width: 150px;
+  margin: 20px;
+  border: solid 1px orange;
+  border-radius: 20px;
+  background: linear-gradient(to right, transparent, #1b3e96);
+  color: #ff8c70;
+}
+.hourButtons, .minuteButtons, .secondButtons {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 80px; 
+  flex-wrap: wrap; 
+  border: solid 1px orange;
+  border-radius: 20px;
+  position: absolute;
+  padding: 5px;
+  right: 50%;
+}
+.hr1, .hr2, .hr3, .hr4, .hr5, .hr6, .hr7, .hr8, .hr9, .hr0, .m1, .m2, .m3, .m4, .m5, .m6, .m7, .m8, .m9, .m0, .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s0 {
+  border: solid 1px red;
+  border-radius: 5px;
+  width: 66px; 
+}
